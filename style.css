@@ -1383,15 +1383,13 @@ html {
   }
 
   .home h1 {
-    text-align: justify;
-    text-justify: inter-word;
     font-family: 'Courier New';
     font-weight: bold;
     font-style: normal;
     font-size: 26px;
     padding-bottom: 25px;
     padding-top: 15px;
-    margin: auto;
+    margin: auto !important;
   }
   .home h2 {
     text-justify: inter-word;
