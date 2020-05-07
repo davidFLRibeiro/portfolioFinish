@@ -1,0 +1,1733 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.nav {
+  padding: 0;
+  margin-left: 0;
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  height: 60px;
+  line-height: 55px;
+  font-family: 'Courier New';
+  font-weight: 10;
+  font-style: normal;
+  background-color: black;
+}
+
+.menu {
+  width: 100%;
+  background-color: black;
+  display: none;
+  margin-bottom: 3px;
+}
+
+.menu a {
+  padding-top: 1px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  height: 15px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Courier New';
+  font-size: 14px;
+}
+
+.nav label {
+  margin-right: 5px;
+  text-align: right;
+  width: 25px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+#toggle {
+  display: none;
+}
+
+#toggle:checked + .menu {
+  display: block;
+  margin-bottom: 50px;
+}
+
+#toggle:checked + .nav {
+  display: none;
+  margin-bottom: 50px;
+}
+
+/*
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+  }
+  */
+
+.home {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.home h1 {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  margin: auto;
+}
+.home h2 {
+  font-weight: 20;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.imghome {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects {
+  padding-top: 200px;
+  min-height: 100%;
+  width: 100%;
+}
+
+.text {
+  padding-top: 15px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.textintro {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.quizimg {
+  max-width: 70%;
+  height: auto;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shiftimg {
+  max-width: 70%;
+  height: auto;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.weatherimg {
+  max-width: 70%;
+  height: auto;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.orders h2 {
+  font-weight: normal;
+}
+
+.orderimg {
+  max-width: 70%;
+  height: auto;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.home input {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.projNBA {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.projects {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.nbatxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  font-weight: 20;
+}
+
+.weather h2 {
+  font-family: 'Courier New';
+  font-size: 18px;
+  font-weight: 20;
+}
+
+.gitShift p {
+  font-family: 'Courier New';
+  font-size: 12px;
+  font-weight: 20;
+}
+
+.gitShiftBack p {
+  font-family: 'Courier New';
+  font-size: 12px;
+  font-weight: 20;
+}
+
+.gitOrder p {
+  font-family: 'Courier New';
+  font-size: 12px;
+  font-weight: 20;
+}
+
+.gitBack p {
+  font-family: 'Courier New';
+  font-size: 12px;
+  font-weight: 20;
+}
+
+.shifttxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  font-weight: 20;
+}
+
+.weatherxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  font-weight: 20;
+}
+
+.orderstxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  font-weight: 20;
+}
+
+.links {
+  text-align: left;
+  width: 90%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.linksShift {
+  text-align: left;
+  width: 90%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.linksWeather {
+  text-align: left;
+  width: 90%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.link a {
+  color: black;
+  font-family: 'Courier New';
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 20;
+}
+
+.shiftLink a {
+  color: black;
+  font-family: 'Courier New';
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 20;
+}
+
+.linkWeather a {
+  color: black;
+  font-family: 'Courier New';
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 20;
+}
+
+.git {
+  height: 20px;
+  width: 37px;
+  display: inline-block;
+}
+
+.gitOrder {
+  height: 20px;
+  width: 37px;
+  display: inline-block;
+}
+
+.gitBack {
+  margin-left: 40px;
+  height: 20px;
+  width: 37px;
+  display: inline-block;
+}
+
+.gitShift {
+  height: 20px;
+  width: 37px;
+  display: inline-block;
+}
+
+.gitShiftBack {
+  height: 20px;
+  width: 37px;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.gitShiftBack img {
+  height: 25px;
+  width: 25px;
+}
+
+.gitOrder img {
+  height: 25px;
+  width: 25px;
+}
+
+.git img {
+  height: 25px;
+  width: 25px;
+}
+
+.gitBack img {
+  height: 25px;
+  width: 25px;
+}
+
+.gitShift img {
+  height: 25px;
+  width: 25px;
+}
+
+.gitWeather img {
+  height: 25px;
+  width: 25px;
+}
+
+.nbaQuiz {
+  margin-top: 60px !important;
+  height: 30%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shift {
+  margin-top: 60px !important;
+  height: 30%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nbaQuiz h2 {
+  font-family: 'Courier New';
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: 20;
+}
+
+.orders h2 {
+  font-family: 'Courier New';
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: 20;
+}
+
+.shift h2 {
+  font-family: 'Courier New';
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: 20;
+}
+
+.weather {
+  margin-top: 60px !important;
+  height: 30%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.orders {
+  height: 30%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nbatxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  padding-bottom: 20px;
+  font-weight: 20;
+}
+
+.shifttxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  padding-bottom: 20px;
+  font-weight: 20;
+}
+
+.weathertxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  padding-bottom: 20px;
+  font-weight: 20;
+}
+
+.orderstxt h2 {
+  font-family: 'Courier New';
+  font-size: 14px;
+  padding-bottom: 20px;
+  font-weight: 20;
+}
+
+.projtoptxt {
+  height: 30px;
+  width: 100%;
+  padding-bottom: 90px;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 16px;
+}
+
+.projtoptxt h1 {
+  font-weight: bold;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 16px;
+}
+
+.projtoptxt h2 {
+  font-weight: 20;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 14px;
+}
+
+.footer {
+  overflow-wrap: break-word;
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: right;
+  height: 65px;
+  word-break: break-all;
+}
+
+.linkdin {
+  display: inline-block;
+}
+
+.email a {
+  overflow-wrap: break-word;
+}
+
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Courier New';
+  color: whitesmoke;
+  padding-right: 5px;
+  word-wrap: break-word;
+  font-weight: 20;
+}
+
+@media screen and (min-width: 480px) {
+  body,
+  html {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    padding: 0;
+    margin-left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    height: 60px;
+    line-height: 55px;
+    font-family: 'Courier New';
+    font-weight: 10;
+    font-style: normal;
+    background-color: black;
+  }
+
+  .menu {
+    width: 100%;
+    background-color: black;
+    display: none;
+    margin-bottom: 3px;
+  }
+
+  .menu a {
+    padding-top: 1px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    height: 35px;
+  }
+
+  .nav label {
+    margin-right: 5px;
+    text-align: right;
+    width: 25px;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+  #toggle {
+    display: none;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  #toggle:checked + .nav {
+    display: none;
+    margin-bottom: 50px;
+  }
+
+  /*
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+  }
+  */
+
+  .home {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home h1 {
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    margin: auto;
+  }
+  .home h2 {
+    font-family: 'Courier New';
+    font-weight: 20;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .imghome {
+    min-width: 400px;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .text {
+    padding-top: 15px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .textintro {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .quizimg {
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shiftimg {
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weatherimg {
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .orderimg {
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .home input {
+    text-align: center;
+    height: 100%;
+    width: 70%;
+  }
+
+  .projects {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+
+  .nbatxt h2 {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .gitShift p {
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: 20;
+  }
+
+  .gitShiftBack p {
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: 20;
+  }
+
+  .gitOrder p {
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: 20;
+  }
+
+  .gitBack p {
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: 20;
+  }
+
+  .shifttxt h2 {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .weather h2 {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .orderstxt h2 {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .links {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .linksShift {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .linksWeather {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .link a {
+    font-size: 14px;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .shiftLink a {
+    font-size: 14px;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .linkWeather a {
+    font-size: 14px;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .git {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitBack {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitOrder {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitShift {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitShiftBack {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .git img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .gitBack img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .gitOrder img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .gitShift img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .gitShiftBack img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .gitWeather img {
+    height: 30px;
+    width: 30px;
+  }
+
+  /* changing*/
+  .nbaQuiz {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shift {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weather {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .orders {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weatherxt h2 {
+    font-family: 'Courier New';
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .orderstxt h2 {
+    font-family: 'Courier New';
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .projtoptxt {
+    margin: auto;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 90px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .projtoptxt h1 {
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .projtoptxt h2 {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .footer {
+    overflow-wrap: break-word;
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 65px;
+    word-break: break-all;
+  }
+
+  .linkdin {
+    display: inline-block;
+  }
+
+  .email a {
+    overflow-wrap: break-word;
+  }
+
+  .footer a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 20;
+    font-size: 16px;
+    font-family: 'Courier New';
+    color: whitesmoke;
+    padding-right: 5px;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body,
+  html {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    padding: 0;
+    margin-left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    height: 70px;
+    line-height: 55px;
+    font-family: 'Courier New';
+    font-weight: 10;
+    font-style: normal;
+    background-color: black;
+  }
+
+  .menu {
+    display: inline-block;
+  }
+
+  .menu a {
+    font-size: 16px;
+    font-weight: 20;
+    font-family: 'Courier New';
+    margin-right: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline;
+  }
+
+  label {
+    display: none;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  /*
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+  }
+  */
+
+  .home {
+    height: 60%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home h1 {
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    margin: auto;
+  }
+  .home h2 {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 20;
+  }
+
+  .imghome {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projects {
+    padding-top: 200px;
+    min-height: 100%;
+    width: 60%;
+  }
+
+  .text {
+    padding-top: 15px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .textintro {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .quizimg {
+    min-width: 450px;
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shiftimg {
+    min-width: 450px;
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weatherimg {
+    min-width: 450px;
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .orderimg {
+    border: 1px solid black;
+    min-width: 450px;
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home input {
+    text-align: center;
+    height: 100%;
+    width: 60%;
+  }
+
+  .projects {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+  .weathertxt h2 {
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-weight: 20;
+  }
+
+  .orderstxt h2 {
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-weight: 20;
+  }
+
+  .links {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .linksShift {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .linksWeather {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .link a {
+    font-size: 14px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .shiftLink a {
+    font-size: 14px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .linkWeather a {
+    font-size: 14px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .git {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitBack {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitOrder {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitShift {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitShiftBack {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitweather {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .git img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitBack img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitOrder img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitWeather img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitShift img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitShiftBack img {
+    height: 35px;
+    width: 35px;
+  }
+
+  /* changing*/
+  .nbaQuiz {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shift {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weather {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .orders {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .nbatxt h2 {
+    font-family: 'Courier New';
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .gitShift p {
+    font-family: 'Courier New';
+    font-size: 16px;
+    font-weight: 20;
+  }
+
+  .gitShiftBack p {
+    font-family: 'Courier New';
+    font-size: 16px;
+    font-weight: 20;
+  }
+
+  .gitOrder p {
+    font-family: 'Courier New';
+    font-size: 16px;
+    font-weight: 20;
+  }
+
+  .gitBack p {
+    font-family: 'Courier New';
+    font-size: 16px;
+    font-weight: 20;
+  }
+
+  .shifttxt h2 {
+    font-family: 'Courier New';
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .orderstxt h2 {
+    font-family: 'Courier New';
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .projtoptxt {
+    height: 30px;
+    width: 60%;
+    padding-bottom: 90px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 22px;
+  }
+
+  .projtoptxt h1 {
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .projtoptxt h2 {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 20;
+  }
+
+  .footer {
+    overflow-wrap: break-word;
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 65px;
+    word-break: break-all;
+  }
+
+  .linkdin {
+    display: inline-block;
+  }
+
+  .email a {
+    overflow-wrap: break-word;
+  }
+
+  .footer a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New';
+    color: whitesmoke;
+    padding-right: 5px;
+    word-wrap: break-word;
+    font-weight: 20;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  body,
+  html {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    padding: 0;
+    margin-left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    height: 55px;
+    line-height: 55px;
+    font-family: 'Courier New';
+    font-weight: 10;
+    font-style: normal;
+    background-color: black;
+  }
+
+  .menu {
+    display: inline-block;
+  }
+
+  .menu a {
+    font-family: 'Courier New';
+    margin-right: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline;
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  label {
+    display: none;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  #toggle:checked + .nav {
+    display: none;
+    margin-bottom: 50px;
+  }
+
+  /*
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+  }
+  */
+
+  .home {
+    height: 60%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home h1 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    margin: auto;
+  }
+  .home h2 {
+    text-justify: inter-word;
+    font-weight: 20;
+    font-family: 'Courier New';
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .imghome {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projects {
+    padding-top: 200px;
+    min-height: 100%;
+    width: 60%;
+  }
+
+  .text {
+    padding-top: 15px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .textintro {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .quizimg {
+    width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shiftimg {
+    width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weatherimg {
+    width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .orderimg {
+    width: 60%;
+    height: auto;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home input {
+    text-align: center;
+    height: 100%;
+    width: 60%;
+  }
+
+  .projects {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+
+  .nbatxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    font-weight: 20;
+  }
+
+  .gitShift p {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .gitShiftBack p {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .gitOrder p {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .gitBack p {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-weight: 20;
+  }
+
+  .shifttxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    font-weight: 20;
+  }
+
+  .shifttxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    font-weight: 20;
+  }
+
+  .weatherxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    font-weight: 20;
+  }
+
+  .orders h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    font-weight: 20;
+  }
+
+  .links {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .linksShift {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .linksWeather {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .shiftLink a {
+    font-size: 16px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .linkWeather a {
+    font-size: 16px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .git {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitBack {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitShift {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitShiftBack {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .gitWeather {
+    height: 30px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .git img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitBack img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitShift img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitShiftBack img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .gitWeather img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .nbaQuiz {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shift {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weather {
+    margin-top: 60px !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .orders {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .nbatxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .shifttxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .weatherxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .orderstxt h2 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 20;
+  }
+
+  .projtoptxt {
+    height: 30px;
+    width: 60%;
+    padding-bottom: 90px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .projtoptxt h1 {
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 26px;
+  }
+
+  .projtoptxt h2 {
+    font-weight: 20;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .footer {
+    overflow-wrap: break-word;
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 65px;
+    word-break: break-all;
+  }
+
+  .linkdin {
+    display: inline-block;
+  }
+
+  .email a {
+    overflow-wrap: break-word;
+  }
+
+  .footer a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Courier New';
+    color: whitesmoke;
+    padding-right: 5px;
+    word-wrap: break-word;
+    font-weight: 20;
+  }
+}
