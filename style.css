@@ -16,6 +16,7 @@ html {
   padding: 0;
   margin-left: 0;
   width: 100%;
+  z-index: 1;
   text-align: right;
   height: 60px;
   line-height: 55px;
@@ -550,6 +551,7 @@ label {
   .nav {
     padding: 0;
     margin-left: 0;
+    z-index: 1;
     width: 100%;
     text-align: right;
     height: 60px;
@@ -1022,6 +1024,7 @@ label {
   .nav {
     padding: 0;
     margin-left: 0;
+    z-index: 1;
     width: 100%;
     text-align: right;
     height: 70px;
@@ -1491,6 +1494,7 @@ label {
   .nav {
     padding: 0;
     margin-left: 0;
+    z-index: 1;
     width: 100%;
     text-align: right;
     height: 55px;
