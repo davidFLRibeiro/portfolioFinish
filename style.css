@@ -4,11 +4,8 @@
 
 body,
 html {
-  display: block;
-  margin: 0px !important;
-  width: 100%;
-  margin-top: 0px !important;
-  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 main {
@@ -545,11 +542,8 @@ label {
 @media screen and (min-width: 480px) {
   body,
   html {
-    display: block;
-    margin: 0px !important;
-    width: 100%;
-    margin-top: 0px !important;
-    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
   }
 
   main {
@@ -1022,11 +1016,8 @@ label {
 @media screen and (min-width: 800px) {
   body,
   html {
-    display: block;
-    width: 100%;
-    margin: 0px !important;
-    margin-top: 0px !important;
-    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
   }
 
   main {
@@ -1496,11 +1487,8 @@ label {
 @media screen and (min-width: 1600px) {
   body,
   html {
-    display: block;
-    margin: 0px !important;
-    width: 100%;
-    margin-top: 0px !important;
-    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
   }
 
   main {
