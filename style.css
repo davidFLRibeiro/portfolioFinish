@@ -20,7 +20,7 @@ main {
   width: 100%;
   text-align: right;
   position: fixed !important;
-  height: 60px;
+  height: 60px !important;
   line-height: 55px;
   font-family: 'Courier New';
   font-weight: 10;
@@ -558,7 +558,7 @@ label {
     width: 100%;
     text-align: right;
     position: fixed !important;
-    height: 60px;
+    height: 60px !important;
     line-height: 55px;
     font-family: 'Courier New';
     font-weight: 10;
@@ -1033,7 +1033,7 @@ label {
     width: 100%;
     text-align: right;
     position: fixed !important;
-    height: 60px;
+    height: 60px !important;
     line-height: 55px;
     font-family: 'Courier New';
     font-weight: 10;
@@ -1505,7 +1505,7 @@ label {
     width: 100%;
     text-align: right;
     position: fixed !important;
-    height: 60px;
+    height: 60px !important;
     line-height: 55px;
     font-family: 'Courier New';
     font-weight: 10;
