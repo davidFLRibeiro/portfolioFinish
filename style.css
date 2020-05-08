@@ -5,19 +5,24 @@
 body,
 html {
   display: block;
-  padding: 0;
-  margin: 0;
-  height: 100vh;
+  margin: 0px !important;
   width: 100%;
+  margin-top: 0px !important;
   overflow-x: hidden;
 }
 
+main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .nav {
+  margin-top: 0px !important;
   padding: 0;
   margin-left: 0;
   width: 100%;
-  z-index: 1;
   text-align: right;
+  position: fixed;
   height: 60px;
   line-height: 55px;
   font-family: 'Courier New';
@@ -541,17 +546,20 @@ label {
   body,
   html {
     display: block;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
+    margin: 0px !important;
     width: 100%;
+    margin-top: 0px !important;
     overflow-x: hidden;
+  }
+
+  main {
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .nav {
     padding: 0;
     margin-left: 0;
-    z-index: 1;
     width: 100%;
     text-align: right;
     height: 60px;
@@ -1014,17 +1022,20 @@ label {
   body,
   html {
     display: block;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
     width: 100%;
+    margin: 0px !important;
+    margin-top: 0px !important;
     overflow-x: hidden;
+  }
+
+  main {
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .nav {
     padding: 0;
     margin-left: 0;
-    z-index: 1;
     width: 100%;
     text-align: right;
     height: 70px;
@@ -1484,17 +1495,20 @@ label {
   body,
   html {
     display: block;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
+    margin: 0px !important;
     width: 100%;
+    margin-top: 0px !important;
     overflow-x: hidden;
+  }
+
+  main {
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .nav {
     padding: 0;
     margin-left: 0;
-    z-index: 1;
     width: 100%;
     text-align: right;
     height: 55px;
