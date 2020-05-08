@@ -298,6 +298,19 @@ label {
   color: #a9a9a9;
 }
 
+.linkNba a {
+  font-size: 12px;
+  font-weight: 20;
+  color: black;
+  font-family: 'Courier New';
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.linkNba a:hover {
+  color: #a9a9a9;
+}
+
 .shiftLink a {
   color: black;
   font-family: 'Courier New';
@@ -501,6 +514,7 @@ label {
   text-align: right;
   height: 65px;
   word-break: break-all;
+  margin-top: 70px;
 }
 
 .linkdin {
@@ -806,6 +820,19 @@ label {
     color: #a9a9a9;
   }
 
+  .linkNba a {
+    font-size: 14px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .linkNba a:hover {
+    color: #a9a9a9;
+  }
+
   .linkWeather a {
     font-size: 14px;
     color: black;
@@ -958,6 +985,7 @@ label {
     text-align: right;
     height: 65px;
     word-break: break-all;
+    margin-top: 70px;
   }
 
   .linkdin {
@@ -1216,11 +1244,11 @@ label {
     text-decoration: underline;
   }
 
-  .link a:hover {
+  .linkNba a:hover {
     color: #a9a9a9;
   }
 
-  .linkNba a:hover {
+  .link a:hover {
     color: #a9a9a9;
   }
 
@@ -1426,6 +1454,7 @@ label {
     text-align: right;
     height: 65px;
     word-break: break-all;
+    margin-top: 70px;
   }
 
   .linkdin {
@@ -1914,6 +1943,7 @@ label {
     text-align: right;
     height: 65px;
     word-break: break-all;
+    margin-top: 70px;
   }
 
   .linkdin {
