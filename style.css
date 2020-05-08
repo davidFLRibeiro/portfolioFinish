@@ -1031,7 +1031,7 @@ label {
     width: 100%;
     text-align: right;
     position: fixed !important;
-    height: 70px;
+    height: 60px;
     line-height: 55px;
     font-family: 'Courier New';
     font-weight: 10;
@@ -1502,7 +1502,7 @@ label {
     width: 100%;
     text-align: right;
     position: fixed !important;
-    height: 55px;
+    height: 60px;
     line-height: 55px;
     font-family: 'Courier New';
     font-weight: 10;
