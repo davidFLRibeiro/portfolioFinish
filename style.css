@@ -15,7 +15,6 @@ html {
 .nav {
   padding: 0;
   margin-left: 0;
-  position: fixed;
   width: 100%;
   text-align: right;
   height: 60px;
@@ -46,7 +45,7 @@ html {
 }
 
 .nav label {
-  margin-right: 5px;
+  margin-right: 15px;
   text-align: right;
   width: 25px;
   cursor: pointer;
@@ -67,15 +66,15 @@ html {
 }
 
 /*
-  label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-  }
-  */
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+*/
 
 .home {
   height: 100%;
@@ -120,10 +119,38 @@ html {
   margin: 0 auto;
 }
 
+.orderstxt {
+  padding-top: 15px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.shifttxt {
+  padding-top: 15px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.weathertxt {
+  padding-top: 15px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nbatxt {
+  padding-top: 15px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .textintro {
   width: 90%;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .quizimg {
@@ -262,27 +289,39 @@ html {
   color: black;
   font-family: 'Courier New';
   display: inline-block;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 12px;
   font-weight: 20;
+}
+
+.link a:hover {
+  color: #a9a9a9;
 }
 
 .shiftLink a {
   color: black;
   font-family: 'Courier New';
   display: inline-block;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 12px;
   font-weight: 20;
+}
+
+.shiftLink a:hover {
+  color: #a9a9a9;
 }
 
 .linkWeather a {
   color: black;
   font-family: 'Courier New';
   display: inline-block;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 12px;
   font-weight: 20;
+}
+
+.linkWeather a:hover {
+  color: #a9a9a9;
 }
 
 .git {
@@ -298,7 +337,7 @@ html {
 }
 
 .gitBack {
-  margin-left: 40px;
+  margin-left: 60px;
   height: 20px;
   width: 37px;
   display: inline-block;
@@ -314,7 +353,7 @@ html {
   height: 20px;
   width: 37px;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .gitShiftBack img {
@@ -330,6 +369,7 @@ html {
 .git img {
   height: 25px;
   width: 25px;
+  margin-top: 15px !important;
 }
 
 .gitBack img {
@@ -345,6 +385,7 @@ html {
 .gitWeather img {
   height: 25px;
   width: 25px;
+  margin-top: 15px !important;
 }
 
 .nbaQuiz {
@@ -495,7 +536,6 @@ html {
   .nav {
     padding: 0;
     margin-left: 0;
-    position: fixed;
     width: 100%;
     text-align: right;
     height: 60px;
@@ -522,7 +562,7 @@ html {
   }
 
   .nav label {
-    margin-right: 5px;
+    margin-right: 15px;
     text-align: right;
     width: 25px;
     cursor: pointer;
@@ -543,15 +583,15 @@ html {
   }
 
   /*
-  label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-  }
-  */
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+*/
 
   .home {
     height: 70%;
@@ -586,7 +626,35 @@ html {
 
   .text {
     padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .orderstxt {
+    padding-top: 15px;
     width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .shifttxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .weathertxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .nbatxt {
+    padding-top: 15px;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
   }
@@ -594,7 +662,7 @@ html {
   .textintro {
     width: 70%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 130px;
   }
 
   .quizimg {
@@ -719,7 +787,11 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .link a:hover {
+    color: #a9a9a9;
   }
 
   .shiftLink a {
@@ -727,7 +799,11 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .shiftLink a:hover {
+    color: #a9a9a9;
   }
 
   .linkWeather a {
@@ -735,7 +811,11 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .linkWeather a:hover {
+    color: #a9a9a9;
   }
 
   .git {
@@ -745,6 +825,7 @@ html {
   }
 
   .gitBack {
+    margin-left: 60px;
     height: 30px;
     width: 57px;
     display: inline-block;
@@ -766,11 +847,13 @@ html {
     height: 30px;
     width: 57px;
     display: inline-block;
+    margin-left: 60px;
   }
 
   .git img {
     height: 30px;
     width: 30px;
+    margin-top: 15px !important;
   }
 
   .gitBack img {
@@ -796,6 +879,7 @@ html {
   .gitWeather img {
     height: 30px;
     width: 30px;
+    margin-top: 15px !important;
   }
 
   /* changing*/
@@ -910,7 +994,6 @@ html {
   .nav {
     padding: 0;
     margin-left: 0;
-    position: fixed;
     width: 100%;
     text-align: right;
     height: 70px;
@@ -944,15 +1027,15 @@ html {
   }
 
   /*
-  label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-  }
-  */
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+*/
 
   .home {
     height: 60%;
@@ -997,10 +1080,38 @@ html {
     margin: 0 auto;
   }
 
+  .orderstxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .shifttxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .weathertxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .nbatxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .textintro {
     width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 140px;
   }
 
   .quizimg {
@@ -1028,11 +1139,11 @@ html {
     padding-bottom: 25px;
     margin: 0 auto;
     text-align: center;
-    border: 1.3px solid black;
+    border: 1.2px solid black;
   }
 
   .orderimg {
-    border: 1.3px solid black;
+    border: 1.2px solid black;
     min-width: 450px;
     max-width: 60%;
     height: auto;
@@ -1093,7 +1204,24 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .linkNba a {
+    font-size: 14px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .link a:hover {
+    color: #a9a9a9;
+  }
+
+  .linkNba a:hover {
+    color: #a9a9a9;
   }
 
   .shiftLink a {
@@ -1102,7 +1230,11 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .shiftLink a:hover {
+    color: #a9a9a9;
   }
 
   .linkWeather a {
@@ -1111,7 +1243,11 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .linkWeather a:hover {
+    color: #a9a9a9;
   }
 
   .git {
@@ -1121,6 +1257,7 @@ html {
   }
 
   .gitBack {
+    margin-left: 60px;
     height: 30px;
     width: 57px;
     display: inline-block;
@@ -1142,6 +1279,7 @@ html {
     height: 30px;
     width: 57px;
     display: inline-block;
+    margin-left: 60px;
   }
 
   .gitweather {
@@ -1153,6 +1291,7 @@ html {
   .git img {
     height: 35px;
     width: 35px;
+    margin-top: 15px !important;
   }
 
   .gitBack img {
@@ -1168,6 +1307,7 @@ html {
   .gitWeather img {
     height: 35px;
     width: 35px;
+    margin-top: 15px !important;
   }
 
   .gitShift img {
@@ -1322,7 +1462,6 @@ html {
   .nav {
     padding: 0;
     margin-left: 0;
-    position: fixed;
     width: 100%;
     text-align: right;
     height: 55px;
@@ -1339,7 +1478,7 @@ html {
 
   .menu a {
     font-family: 'Courier New';
-    margin-right: 5px;
+    margin-right: 15px;
     text-decoration: none;
     color: whitesmoke;
     display: inline;
@@ -1366,15 +1505,15 @@ html {
   }
 
   /*
-  label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-  }
-  */
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+*/
 
   .home {
     height: 60%;
@@ -1419,10 +1558,38 @@ html {
     margin: 0 auto;
   }
 
+  .orderstxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .textintro {
     width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 150px;
+  }
+
+  .shifttxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .weathertxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .nbatxt {
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .quizimg {
@@ -1447,7 +1614,7 @@ html {
     padding-bottom: 25px;
     margin: 0 auto;
     text-align: center;
-    border: 1.4px solid black;
+    border: 1.3px solid black;
   }
 
   .orderimg {
@@ -1456,7 +1623,7 @@ html {
     padding-bottom: 25px;
     margin: 0 auto;
     text-align: center;
-    border: 1.4px solid black;
+    border: 1.3px solid black;
   }
 
   .home input {
@@ -1554,7 +1721,37 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .linkNba a {
+    font-size: 16px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .link a {
+    font-size: 16px;
+    font-weight: 20;
+    color: black;
+    font-family: 'Courier New';
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .link a:hover {
+    color: #a9a9a9;
+  }
+
+  .linkNba a:hover {
+    color: #a9a9a9;
+  }
+
+  .shiftLink a:hover {
+    color: #a9a9a9;
   }
 
   .linkWeather a {
@@ -1563,7 +1760,11 @@ html {
     color: black;
     font-family: 'Courier New';
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .linkWeather a:hover {
+    color: #a9a9a9;
   }
 
   .git {
@@ -1573,6 +1774,7 @@ html {
   }
 
   .gitBack {
+    margin-left: 60px;
     height: 30px;
     width: 57px;
     display: inline-block;
@@ -1588,6 +1790,7 @@ html {
     height: 30px;
     width: 57px;
     display: inline-block;
+    margin-left: 60px;
   }
 
   .gitWeather {
@@ -1599,6 +1802,7 @@ html {
   .git img {
     height: 35px;
     width: 35px;
+    margin-top: 15px !important;
   }
 
   .gitBack img {
@@ -1619,6 +1823,7 @@ html {
   .gitWeather img {
     height: 35px;
     width: 35px;
+    margin-top: 15px !important;
   }
 
   .nbaQuiz {
